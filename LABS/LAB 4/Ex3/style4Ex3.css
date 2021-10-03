@@ -1,0 +1,27 @@
+#red
+{
+  color: red;
+}
+
+#green
+{
+  color: darkgreen;
+}
+
+#purple
+{
+  color: purple;
+}
+
+.bgGreen
+{
+  background-color: green;
+}
+
+div.box
+{
+  border: dashed;
+  border-width: thick;
+  padding: 10px;
+  margin: 0px 15px 0px 15px;
+}
