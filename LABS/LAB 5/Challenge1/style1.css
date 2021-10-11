@@ -1,0 +1,36 @@
+body
+{
+  color: white;
+}
+
+#wrapper
+{
+  margin: 0 auto;
+}
+
+#header
+{
+  background-color: red;
+  height: 50px;
+  text-align: center;
+}
+
+#body
+{
+  background-color: green;
+  height:400px;
+  margin-top: 0px;
+  line-height: 2em;
+}
+
+#footer
+{
+  background-color: blue;
+  margin-top: 0px;
+  line-height: 2em;
+  height: 100px;
+}
+
+.centered {
+  margin: 0 auto;
+}

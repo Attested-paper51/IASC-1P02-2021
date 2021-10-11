@@ -1,0 +1,36 @@
+#wrapper
+{
+  background-color: green;
+  height: 630px;
+}
+
+#c1
+{
+  float: left;
+  background-color: blue;
+  height: 250px;
+  width: 250px;
+  margin-left: 200px;
+  margin-top: 10px;
+  line-height: 3em;
+}
+
+#c2
+{
+  float: left;
+  background-color: red;
+  height: 250px;
+  width: 250px;
+  margin-left: 440px;
+  margin-top: 10px;
+  line-height: 3em;
+}
+
+#c3
+{
+  background-color: yellow;
+  height: 250px;
+  width: 250px;
+  margin-left: 550px;
+  clear: both;
+}
