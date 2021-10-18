@@ -1,0 +1,202 @@
+/*For adding a background image*/
+/*body{
+  /* The image used */
+  /*background-image: url("Pictures/OrangeEagle.jpg");
+
+  /* Full height */
+  /*height: 100%;
+
+  /* Center and scale the image nicely */
+  /*background-position: center;*/
+  /*background-repeat: no-repeat;
+  background-size: cover;
+}*/
+
+body
+{
+  background-color: DarkOrange;
+}
+
+#wrapper
+{
+  margin: 0 auto;
+  width: 1100px;
+}
+
+#header
+{
+  text-shadow: #000 5px 0px 1px;
+  height: 80px;
+  font-size: 70px;
+  text-align: center;
+}
+
+#leftNav
+{
+  float: left;
+  background-color: gold;
+  font-weight: bold;
+  font-size: 20px;
+  height:100px;
+  width: 300px;
+  margin-top: 0px;
+  line-height: 3em;
+  border-color: black;
+}
+
+#rigthNav
+{
+  float: left;
+  font-weight: bold;
+  border-color: black;
+  height:100px;
+  width: 800px;
+  margin-top: 0px;
+  line-height: 3em;
+}
+
+#content
+{
+  background-color: white;
+  height:auto;
+  width: 1010px;
+  margin-top: 0px;
+  clear: both;
+}
+
+/*img#Vegeta_and_nappa
+{
+  margin-bottom: 170px;
+  height: auto;
+  border-color: black;
+  border-width: 1.5px;
+  border-style: dashed;
+  padding: 7px;
+}*/
+
+img#Goku_vs_nappa
+{
+  margin-left: 0px;
+  margin-bottom: 260px;
+  border-color: black;
+  border-width: 1.5px;
+  border-style: dashed;
+  width: 600px;
+  height: 300px;
+  padding: 7px;
+}
+
+img#Goku_vs_Vegeta
+{
+  margin-left: 320px;
+  margin-top: -270px;
+  width: 600px;
+  height: auto;
+  padding: 7px;
+}
+
+.giveBorder
+{
+  border-color: black;
+  border-width: 1.5px;
+  border-style: dashed;
+}
+
+.MakeYellow
+{
+  color: yellow;
+}
+
+.MakeRed
+{
+  color: red;
+}
+
+.MakeBold
+{
+  font-weight: bold;
+}
+
+.MakeBig
+{
+  font-size: 55px;
+}
+
+.MakeGiant
+{
+  font-size: 90px;
+}
+
+.MakeSub
+{
+  vertical-align: sub;
+}
+
+ol h1,h2
+{
+  font-family: Arial;
+}
+
+.heading
+{
+  font-size: 30px;
+}
+
+.sub-heading
+{
+  font-size: 23px;
+}
+
+.normal
+{
+  font-size: 20px;
+}
+
+.center
+{
+  text-align: center;
+}
+
+.caps
+{
+  text-transform: uppercase;
+}
+
+.resize
+{
+  width: 50px;
+  height: auto;
+}
+
+.resize2
+{
+  width: 500px;
+  height: auto;
+}
+
+/*Absolute Position*/
+.absolute
+{
+  position: absolute;
+  top: 1900px;
+  left:700px;
+  width: 400px;
+  height: auto;
+}
+
+/*Relative Position*/
+ol li
+{
+  position:relative;
+  right: 5px;
+}
+
+/*Fixed Position*/
+.logo
+{
+  position: fixed;
+  background-color: red;
+  padding: 5px;
+  top: 0;
+  right: 0;
+}
