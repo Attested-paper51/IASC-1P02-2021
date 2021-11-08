@@ -1,0 +1,106 @@
+body
+{
+  font-family: Arial;
+}
+
+#header
+{
+  background-color: lightskyblue;
+  text-shadow: #000 1px 1px 1px;
+  /*border-style:solid;
+  border-color: black;*/
+  color: white;
+  height: 100px;
+  padding-top:10px;
+  padding-left:10px;
+  text-align: left;
+}
+
+.Button
+{
+  background-color: white;
+  border-style:solid;
+  border-color: black;
+  color: black;
+  font-size: 15px;
+  width: 120px;
+  padding: 5px;
+}
+
+#AccountDetails
+{
+  background-color: white;
+  border-style:solid;
+  border-color: black;
+  color: black;
+  height: 200px;
+  width: 200px;
+  padding-top:10px;
+  padding-left:10px;
+  text-align: left;
+}
+
+#MainContent
+{
+  background-color: DodgerBlue;
+  border-style:solid;
+  border-width: 2px 0px 0px 0px;
+  border-color: black;
+  color: white;
+  height: 500px;
+  padding-top:10px;
+  padding-left:10px;
+  text-align: center;
+  line-height: 25px;
+}
+
+.LocationButton
+{
+  background-color: white;
+  border-style:solid;
+  border-color: black;
+  color: black;
+  font-size: 15px;
+  width: 120px;
+  padding: 5px;
+}
+
+.headingSize
+{
+  font-size: 30px;
+}
+.SloganSize
+{
+  font-size: 50px;
+}
+
+/*Relative Position*/
+.relative
+{
+  position:relative;
+  bottom: 500px;
+}
+/*Absolute Position*/
+.absolute
+{
+  position: absolute;
+  bottom: 290px;
+  height: auto;
+}
+
+.resize
+{
+  width: 300px;
+  height: auto;
+}
+.resize2
+{
+  width: 550px;
+  height: auto;
+}
+
+/*Colours*/
+.Orange
+{
+  background-color: rgb(255,186,0);
+}
