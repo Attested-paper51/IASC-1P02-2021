@@ -1,0 +1,264 @@
+<!--?xml version="1.0" encoding="UTF-8"?-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+		<!--The head contains all of the confirguration items for our page-->
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<meta content="en-us" http-equiv="Content-Language" />
+		<title>Explore</title>
+		<link href="ExploreStyle.css" type="text/css" rel="stylesheet"/>
+	</head>
+
+	<body>
+		<!--The body contains all of the content for our page-->
+    <!-- Wrapper -->
+    <div id = "wrapper">
+
+      <!-- Header -->
+      <div id = "header" class = "fixed">
+        <span class = "logo">OnlySmash</span>
+        <span class = "paddLeft">Products</span>
+        <span class = "paddLeft">Learn</span>
+        <span class = "paddLeft">Safety</span>
+        <span class = "paddLeft">Support</span>
+        <span class = "paddLeft">Download</span>
+        <span class = "topRight">English</span>
+        <span class = "paddLeft"><button class="button-76" role="button" onclick="Login()">Log out</button></span>
+        <!-- <span class = "paddLeft"><button onclick="Login()">Log in</button></span> -->
+      </div>
+
+      <!-- Main Content -->
+      <div id = "MainContent">
+        <!-- Footer -->
+        <div id = "footer">
+          <button class="button-76" onclick="goBack()">Back</button>
+          <!-- <a href="javascript:history.back(1)">Previous Page</a> -->
+        </div>
+
+        <!-- Filters -->
+        <div class="dropdown">
+          <div class="dropdown-content">
+            <input class = "lightUp" type="checkbox" id="M" name="male" value="1">
+            <label for="M"> Male</label><br>
+
+            <input class = "lightUp" type="checkbox" id="F" name="female" value="2">
+            <label for="F"> Female</label><br>
+
+            <input class = "lightUp" type="checkbox" id="O" name="other" value="3">
+            <label for="O"> Other</label><br>
+          </div>
+          <button class="button-76">Filters</button>
+        </div>
+        <button onclick = "search()" class="button-76 SearchLocation">Search</button>
+
+        <!-- Box 1 -->
+        <div id = "c1" class = "female">
+          <img src = "https://pbs.twimg.com/profile_images/666485885333032960/PHhuqpJX_400x400.jpg" alt = "Image not found :(" />
+          <span class = "details">
+            <table>
+              <tr>
+                <td>Username:</td>
+                <td>foxymama21</td>
+              </tr>
+              <tr>
+                <td>Age:</td>
+                <td>Still 30</td>
+              </tr>
+              <tr>
+                <td>Body type:</td>
+                <td>Banging</td>
+              </tr>
+              <tr>
+                <td>Drinks:</td>
+                <td>Destructvely</td>
+              </tr>
+              <tr>
+                <td>Looking for:</td>
+                <td>BBC</td>
+              </tr>
+           </table>
+          </span>
+          <button onclick = "toggle1(this)" class = "button-76 btnLocation" id = "1">Smash</button>
+          <div class = "bioLocation">
+          <h1>About me:</h1>
+          <p>Unsatisfied mother of 2. I have a body and mind of a girl half my age but my husband's too wrapped up in himself to notice. He spends half his time drinking by the pool ignoring me. Well I'm done! Looking for a hung bbc who knows how to appreciate a woman in her sexual prime. Also I love yoga.</p>
+          </div>
+        </div>
+
+        <!-- Box 2 -->
+        <div id = "c1" class = "female">
+          <img src = "https://static.wikia.nocookie.net/gtawiki/images/e/ee/Kaylee-GTAO-Portrait.png/revision/latest?cb=20201217005413" alt = "Image not found :(" />
+          <span class = "details">
+            <table>
+              <tr>
+                <td>Username:</td>
+                <td>Dumb_Blonde69</td>
+              </tr>
+              <tr>
+                <td>Age:</td>
+                <td>22</td>
+              </tr>
+              <tr>
+                <td>Body type:</td>
+                <td>Slim</td>
+              </tr>
+              <tr>
+                <td>Drinks:</td>
+                <td>Occasionally</td>
+              </tr>
+              <tr>
+                <td>Looking for:</td>
+                <td>Free meals</td>
+              </tr>
+           </table>
+          </span>
+          <span><button onclick = "toggle1(this)" class = "button-76 btnLocation" id = "2">Smash</button></span>
+          <div class = "bioLocation">
+          <h1>About me:</h1>
+          <p>Unsatisfied mother of 2. I have a body and mind of a girl half my age but my husband's too wrapped up in himself to notice. He spends half his time drinking by the pool ignoring me. Well I'm done! Looking for a hung bbc who knows how to appreciate a woman in her sexual prime. Also I love yoga.</p>
+          </div>
+        </div>
+
+        <!-- Box 2 -->
+        <div id = "c1" class = "male">
+          <img src = "https://static.wikia.nocookie.net/degta/images/8/8c/NikoLiberty_IV.png/revision/latest/scale-to-width-down/208?cb=20121219164937" alt = "Image not found :(" />
+          <span class = "details">
+            <table>
+              <tr>
+                <td>Username:</td>
+                <td>SweetBellic</td>
+              </tr>
+              <tr>
+                <td>Age:</td>
+                <td>30</td>
+              </tr>
+              <tr>
+                <td>Body type:</td>
+                <td>Athletic</td>
+              </tr>
+              <tr>
+                <td>Drinks:</td>
+                <td>Rarely</td>
+              </tr>
+              <tr>
+                <td>Looking for:</td>
+                <td>Anything goes</td>
+              </tr>
+           </table>
+          </span>
+          <span><button onclick = "toggle1(this)" class = "button-76 btnLocation" id = "3">Smash</button></span>
+          <div class = "bioLocation">
+          <h1>About me:</h1>
+          <p>Unsatisfied mother of 2. I have a body and mind of a girl half my age but my husband's too wrapped up in himself to notice. He spends half his time drinking by the pool ignoring me. Well I'm done! Looking for a hung bbc who knows how to appreciate a woman in her sexual prime. Also I love yoga.</p>
+          </div>
+        </div>
+
+        <!-- Box 2 -->
+        <div id = "c1" class = "male">
+          <img src = "https://pbs.twimg.com/profile_images/611895473302044672/7T7WSznF_400x400.jpg" alt = "Image not found :(" />
+          <span class = "details">
+            <table>
+              <tr>
+                <td>Username:</td>
+                <td>ManOfGod</td>
+              </tr>
+              <tr>
+                <td>Age:</td>
+                <td>33</td>
+              </tr>
+              <tr>
+                <td>Body type:</td>
+                <td>Average</td>
+              </tr>
+              <tr>
+                <td>Drinks:</td>
+                <td>Never</td>
+              </tr>
+              <tr>
+                <td>Looking for:</td>
+                <td>A convert</td>
+              </tr>
+           </table>
+          </span>
+          <span><button onclick = "toggle1(this)" class = "button-76 btnLocation" id = "4">Smash</button></span>
+          <div class = "bioLocation">
+          <h1>About me:</h1>
+          <p>Unsatisfied mother of 2. I have a body and mind of a girl half my age but my husband's too wrapped up in himself to notice. He spends half his time drinking by the pool ignoring me. Well I'm done! Looking for a hung bbc who knows how to appreciate a woman in her sexual prime. Also I love yoga.</p>
+          </div>
+        </div>
+
+        <!-- Box 2 -->
+        <div id = "c1" class = "male">
+          <img src = "https://i.imgur.com/IW9cxY3.png" alt = "Image not found :(" />
+          <span class = "details">
+            <table>
+              <tr>
+                <td>Username:</td>
+                <td>RichGuy123</td>
+              </tr>
+              <tr>
+                <td>Age:</td>
+                <td>42</td>
+              </tr>
+              <tr>
+                <td>Body type:</td>
+                <td>Dad bod</td>
+              </tr>
+              <tr>
+                <td>Drinks:</td>
+                <td>Everyday</td>
+              </tr>
+              <tr>
+                <td>Looking for:</td>
+                <td>A sugar baby </td>
+              </tr>
+           </table>
+          </span>
+          <span><button onclick = "toggle1(this)" class = "button-76 btnLocation" id = "5">Smash</button></span>
+          <div class = "bioLocation">
+          <h1>About me:</h1>
+          <p>Unsatisfied mother of 2. I have a body and mind of a girl half my age but my husband's too wrapped up in himself to notice. He spends half his time drinking by the pool ignoring me. Well I'm done! Looking for a hung bbc who knows how to appreciate a woman in her sexual prime. Also I love yoga.</p>
+          </div>
+        </div>
+
+        <!-- Box 2 -->
+        <div id = "c1" class = "female">
+          <img src = "https://static.wikia.nocookie.net/gtawiki/images/4/40/FemaleAssistant-GTAO.png/revision/latest?cb=20160703031349" alt = "Image not found :(" />
+          <span class = "details">
+            <table>
+              <tr>
+                <td>Username:</td>
+                <td>yourAgent47</td>
+              </tr>
+              <tr>
+                <td>Age:</td>
+                <td>28</td>
+              </tr>
+              <tr>
+                <td>Body type:</td>
+                <td>Average</td>
+              </tr>
+              <tr>
+                <td>Drinks:</td>
+                <td>Occasionally</td>
+              </tr>
+              <tr>
+                <td>Looking for:</td>
+                <td>None of your business</td>
+              </tr>
+           </table>
+          </span>
+          <span><button onclick = "toggle1(this)" class = "button-76 btnLocation" id = "6">Smash</button></span>
+          <div class = "bioLocation">
+          <h1>About me:</h1>
+          <p>Two degrees, both in finance. Master of Business Administration (MBA). I will sue you for sexual harrassment if you come too close. My boss never gives me company shares. I have all the candies in the world, but won't give you more than a handful.</p>
+          </div>
+        </div>
+
+      </div>
+
+  </body>
+  <body onload="printBtn();">
+    <body onload="clickButton();">
+  <script type="text/javascript" src="ExploreScript.js"></script>
+</html>

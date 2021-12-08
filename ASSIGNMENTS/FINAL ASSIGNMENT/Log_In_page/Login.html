@@ -1,0 +1,51 @@
+<!--?xml version="1.0" encoding="UTF-8"?-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+		<!--The head contains all of the confirguration items for our page-->
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<meta content="en-us" http-equiv="Content-Language" />
+		<title>Log in</title>
+    <link href="LoginStyle.css" type="text/css" rel="stylesheet"/>
+    <script type="text/javascript" src="LoginScript.js"></script>
+	</head>
+
+	<body>
+		<!--The body contains all of the content for our page-->
+    <!-- Wrapper -->
+    <div id = "wrapper">
+
+      <!-- Header -->
+      <div id = "header" class = "center">
+        <h1 class = "logo">Log in</h1>
+      </div>
+
+      <div>
+        <!-- Background Image -->
+        <img src = "https://www.fg-a.com/wallpapers/2020-pink-hearts-image.jpg" alt = "Image not found :(" />
+        <!-- Main Content -->
+        <!-- Footer -->
+        <div id = "footer">
+          <button class="button-76" onclick="goBack()">Back</button>
+        </div>
+
+        <div id = "MainContent" class = "center">
+          <p id = "usernameError"></p>
+          <p id = "usernameError2"></p>
+          <span>Username:</span>
+          <input type = "text" name = "Username" id = "username" value = "" />
+
+          <p id = "passwordError"></p>
+          <span class = "moveleft">Password:</span>
+          <input type = "password" name = "Password" id = "password" value = "" />
+          <button onclick="show()" class = "button">Show</button>
+
+          <br><br/>
+
+          <button onclick="login()" class = "button">Log in</button>
+        </div>
+      </div>
+
+    </div>
+  </body>
+</html>
