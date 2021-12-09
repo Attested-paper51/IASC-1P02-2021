@@ -29,6 +29,31 @@
   cursor: pointer;
 }
 
+/* CSS - https://getcssscan.com/css-buttons-examples?ref=beautifulboxshadow-bottom */
+.button-76 {
+  background-color: #cf245f;
+  background-image: linear-gradient(to bottom right, #fcd34d, #ef4444, #ec4899);
+  border: 0;
+  border-radius: .25rem;
+  color: #fff;
+  cursor: pointer;
+  font-family: ui-sans-serif,system-ui,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+  font-size: 18px; /* 18px */
+  font-weight: 600;
+  padding: 0px 0px 25px 0px;
+  text-align: center;
+  user-select: none;
+  -webkit-user-select: none;
+  width: 50px;
+  height: 0px;
+  z-index: 2;
+}
+
+.btnLength
+{
+  width: 80px;
+}
+
 .logo
 {
   font-size: 40px;

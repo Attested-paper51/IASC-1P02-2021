@@ -45,7 +45,7 @@ function login()
     // Logs in only if both username and password fields are not empty
     if(username.value && password.value != "")
     {
-      location.href = "/C:/Users/Admin/Desktop/IASC 1P02/GitHub/IASC-1P02-2021/ASSIGNMENTS/FINAL ASSIGNMENT/Explore_Page/explore.html";
+      location.href = "https://attested-paper51.github.io/IASC-1P02-2021/ASSIGNMENTS/FINAL ASSIGNMENT/Explore_Page/explore.html";
     }
   }
 

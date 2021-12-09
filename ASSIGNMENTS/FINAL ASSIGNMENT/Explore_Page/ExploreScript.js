@@ -21,7 +21,7 @@ function toggle1(btn)
 
 function Login()
 {
-  location.href = "/C:/Users/Admin/Desktop/IASC 1P02/GitHub/IASC-1P02-2021/ASSIGNMENTS/FINAL ASSIGNMENT/Log_In_Page/Login.html";
+  location.href = "https://attested-paper51.github.io/IASC-1P02-2021/ASSIGNMENTS/FINAL ASSIGNMENT/Log_In_page/Login.html";
 }
 
 function search()
